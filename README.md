@@ -24,7 +24,7 @@ This project is a personal infrastructure lab focused on building a self-hosted 
 ---
 
 ## High-level goals
-[x] Install Ubuntu Server, initial configuration/hardening
+[ x ] Install Ubuntu Server, initial configuration/hardening
 [x] Configure netplan, update the system, harden the SSH
 [x] Deploy internal PKI using EasyRSA. Generate CA, server and client certificates
 [x] Deploy OpenVPN server, configure, teste
