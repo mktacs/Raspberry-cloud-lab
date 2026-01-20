@@ -25,13 +25,13 @@ This project is a personal infrastructure lab focused on building a self-hosted 
 
 ## High-level goals
 1. [x] Install Ubuntu Server, initial configuration/hardening
-[x] Configure netplan, update the system, harden the SSH
-[x] Deploy internal PKI using EasyRSA. Generate CA, server and client certificates
-[x] Deploy OpenVPN server, configure, teste
-[x] Configure Firewall with default-deny policy
-[ ] Explore MFA options for VPN access
-[ ] Install Docker and Docker Compose
-[ ] Deploy and harden first containers
-[ ] Implement basic backup strategy
-[ ] Deploy centralized logging stack (ELK/Wazuh)
-[ ] Script repetitive setup tasks
+2. [x] Configure netplan, update the system, harden the SSH
+3. [x] Deploy internal PKI using EasyRSA. Generate CA, server and client certificates
+4. [x] Deploy OpenVPN server, configure, teste
+5. [x] Configure Firewall with default-deny policy
+6. [ ] Explore MFA options for VPN access
+7. [ ] Install Docker and Docker Compose
+8. [ ] Deploy and harden first containers
+9. [ ] Implement basic backup strategy
+10. [ ] Deploy centralized logging stack (ELK/Wazuh)
+11. [ ] Script repetitive setup tasks
