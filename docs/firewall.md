@@ -9,7 +9,7 @@ sudo ufw default allow outgoing
 - since we are denying all incoming traffic, SSH will be denied as well
 	- in order to allow ssh traffic ran the following `sudo ufw allow 22/tcp`
 		- basically we are allowing incoming tcp traffic via tcp port 22, which is running ssh
-- this is not ideal, so after setting up a VPN service, made the changes in the next changes
+- this is not ideal, so after setting up a VPN service, made the changes in the next stage (after vpn setup)
 - `sudo ufw enable` in order to enable the firewall
 ## After VPN setup
 - setting a rule which allows all incoming traffic through tun0 port (vpn)
