@@ -21,4 +21,4 @@ PasswordAuthentication no
 - password won't work
 ### 3. VPN only access
 - After deploying OpenVPN server, made SSH available only when connected via VPN
-- This config is documented in /Raspberry-cloud-lab/docs/firewall.md
+- This config is documented in [firewall.md](firewall.md)
