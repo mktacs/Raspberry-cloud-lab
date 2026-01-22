@@ -17,9 +17,9 @@ This project is a personal infrastructure lab focused on building a self-hosted 
 - **OS:** Ubuntu Server 24.04.3 LTS
 - **Storage:** NVMe SSD 1TB
 - **Network:**
- - Private LAN
- - VPN-based remote access
- - Public IPv4 with port forwarding
+	- Private LAN
+	- VPN-based remote access
+	- Public IPv4 with port forwarding
 
 ---
 
