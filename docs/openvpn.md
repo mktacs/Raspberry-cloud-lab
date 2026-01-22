@@ -66,7 +66,7 @@ sed -i "/<cert>/r pki/issued/<NAME.crt>" <path/to/file.ovpn>
 sed -i "/<key>/r pki/private/<NAME.key>" <path/to/file.ovpn>
 sed -i "/<tls-crypt>/r /etc/openvpn/ta.key" <path/to/file.ovpn>
 ```
-> don't change the "<ca>", "<cert>", etc. You only need to change <NAME.crt/.key> to the actual name, and <path/to/file.ovpn> to the path to the client ovpn config file
+> Don't touch the "ca/cert/key/tls-crypt" fields. You only need to change <NAME.crt/.key> to the actual name, and <path/to/file.ovpn> to the path to the client ovpn config file
 - One of the ways to transfer the client ovpn config to the client securely is `scp`:
 	- `scp -i ~/.ssh/<your_key> <your_user>@<pi_lan_ip>:~/ovpn/laptop.ovpn .`
 ### 11. External access & security properties
