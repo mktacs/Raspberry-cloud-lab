@@ -1,9 +1,9 @@
 ## Public Key Infrastructure (PKI) setup for OpenVPN
 ### 1. Tools used
-- OpenVPN (configuration notes are located at [openvpn.md](openvpn.md)
+- OpenVPN (configuration notes are located at [openvpn.md](openvpn.md))
 - Easy-RSA
 ---
-- Installed Easy-RSA on the PI using:
+- Installed Easy-RSA and OpenVPN on the PI using:
 ```bash
 sudo apt update
 sudo apt install -y openvpn easy-rsa
