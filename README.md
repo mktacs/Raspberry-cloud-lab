@@ -27,13 +27,14 @@ This project is a personal infrastructure lab focused on building a self-hosted 
 1. [x] Install Ubuntu Server, initial configuration/hardening
 2. [x] Configure netplan, update the system, harden the SSH
 3. [x] Deploy internal PKI using EasyRSA. Generate CA, server and client certificates
-4. [x] Deploy OpenVPN server, configure, teste
+4. [x] Deploy OpenVPN server, configure, test it
 5. [x] Configure Firewall with default-deny policy
 6. [ ] Explore MFA options for VPN access
-7. [ ] Install Docker and Docker Compose
+7. [x] Install Docker and Docker Compose
 8. [ ] Deploy and harden first containers
 9. [ ] Implement basic backup strategy
 10. [ ] Deploy centralized logging stack (ELK/Wazuh)
 11. [ ] Script repetitive setup tasks
 12. [ ] Move from Easy-RSA to Step-CA as a PKI solution
 13. [ ] Deploy a DNS server (probably CoreDNS)
+14. [x] Deploy 1Password CLI integration
