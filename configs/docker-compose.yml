@@ -4,11 +4,11 @@ services:
     container_name: coredns
     restart: unless-stopped  # container restarts automatically after reboot
 
-    ports:      # host ports 53 are bound to the container
-      - 53:53/udp
-      - 53:53/tcp
-    # configuration and zone files are mounted read-only
-    volumes:
+    ports:      # host ports 53 are bound to the container. Update: added tun ip address to the ports, since the port was open via scanning pi's local ip via nmap, so this change closes the port locally and only allows it while connected to the vpn
+      - 10.8.0.1:53:53/udp
+      - 10.8.0.1:53:53/tcp
+
+    volumes:                  #configuration and zone files are mounted read-only
       - ./Corefile:/Corefile:ro
       - ./zones:/zones:ro
 
