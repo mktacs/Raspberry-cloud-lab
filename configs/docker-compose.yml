@@ -1,0 +1,22 @@
+services:
+  coredns:
+    image: coredns/coredns:latest
+    container_name: coredns
+    restart: unless-stopped  # container restarts automatically after reboot
+
+    ports:      # host ports 53 are bound to the container
+      - 53:53/udp
+      - 53:53/tcp
+    # configuration and zone files are mounted read-only
+    volumes:
+      - ./Corefile:/Corefile:ro
+      - ./zones:/zones:ro
+
+    command: -conf /Corefile
+
+    networks:
+      - dns_net
+# coredns runs in its own docker bridge network
+networks:
+  dns_net:
+    driver: bridge

@@ -36,5 +36,5 @@ This project is a personal infrastructure lab focused on building a self-hosted 
 10. [ ] Deploy centralized logging stack (ELK/Wazuh)
 11. [ ] Script repetitive setup tasks
 12. [ ] Move from Easy-RSA to Step-CA as a PKI solution
-13. [ ] Deploy a DNS server (probably CoreDNS)
+13. [x] Deploy a DNS server (probably CoreDNS)
 14. [x] Deploy 1Password CLI integration

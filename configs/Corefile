@@ -1,0 +1,11 @@
+.:53 {		# listens on port 53
+    log
+    errors
+    health
+    ready
+
+    file /zones/pi.db pi	# serves the pi. zone locally
+
+    forward . 1.1.1.1 8.8.8.8	# forwards all other queries to public dns
+    cache 30			# uses caching to reduce upstream queries
+}
